@@ -1,6 +1,6 @@
 class Student < User
   
-  attr_writer :knowledge
+  attr_accessor :knowledge
 
   def new
     @knowledge = []
