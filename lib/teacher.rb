@@ -5,4 +5,5 @@ class Teacher < User
   def teach
     return KNOWLEDGE
   end
+  
 end
