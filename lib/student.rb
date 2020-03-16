@@ -1,6 +1,6 @@
 class Student < User
   
-  attr_reader : @knowledge
+  attr_reader :knowledge
 
   def new
     @knowledge = []
